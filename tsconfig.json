@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
     "declaration": true,
     "noImplicitAny": true,
     "removeComments": true,
@@ -13,6 +14,7 @@
     "./.idea",
     "./node_modules",
     "./*.iml",
-    "./.DS_Store"
+    "./.DS_Store",
+    "./dist/**/*.d.ts"
   ]
 }
